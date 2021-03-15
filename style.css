@@ -20,7 +20,25 @@ body {
     font: bold 24px/31px 'pt_serif', Arial, Helvetica, sans-serif;
 }
 
+.logo__circle {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    opacity: .7;
+}
 
+.logo__circle_color_dark-blue {
+    background: #0056EC;
+}
+
+.logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+    background: #C8D8FB;
 }
 
 .logo, .menu {
@@ -39,4 +57,17 @@ body {
 .menu__item:last-child {
     padding-right: 0;
     min-width: max-content;
+}
+
+.main-content {
+    padding-top: 206px;
+    width: 37%;
+}
+
+.main-content__title {
+    padding-bottom: 40px;
+}
+
+.main-content__subtitle {
+margin-bottom: 41px;
 }
