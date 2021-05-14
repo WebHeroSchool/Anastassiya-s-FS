@@ -292,9 +292,9 @@ body {
   .hamburger-menu {
    display: block;
   }
-  .menu__btn>span,
-  .menu__btn>span::before,
-  .menu__btn>span::after {
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -302,11 +302,11 @@ body {
     background-color: #0056ec;
     transition-duration: 0.25s;
   }
-  .menu__btn>span::before {
+  .menu__btn > span::before {
     content: '';
     top: -7px;
   }
-  .menu__btn>span::after {
+  .menu__btn > span::after {
     content: '';
     top: 7px;
   }
@@ -349,14 +349,14 @@ body {
   #menu__toggle {
     opacity: 0;
   }
-  #menu__toggle:checked~.menu__btn>span {
+  #menu__toggle:checked~.menu__btn > span {
     transform: rotate(45deg);
   }
-  #menu__toggle:checked~.menu__btn>span::before {
+  #menu__toggle:checked~.menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
-  #menu__toggle:checked~.menu__btn>span::after {
+  #menu__toggle:checked~.menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
