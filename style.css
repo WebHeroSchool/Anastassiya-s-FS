@@ -175,7 +175,7 @@ body {
   .wrapper {
     width: 67.89%;
  }
-  
+
   .header {
     margin-bottom: 85px;
  }
@@ -246,6 +246,7 @@ body {
   .header {
     margin-bottom: 82px;
   }
+
   .main {
     padding-top: 18px;
   }
@@ -255,7 +256,8 @@ body {
   .main__title {
     font: bold 40px/50px 'pt_serifbold', arial, helvetica, sans-serif;
   }
-   .main__subtitle {
+
+  .main__subtitle {
     margin-bottom: 32px;
     font: 500 16px/21.09px 'robotonormal', arial, helvetica, sans-serif;
     max-width: 350px;
@@ -380,7 +382,6 @@ body {
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
-
     transform: rotate(45deg);
   }
 
