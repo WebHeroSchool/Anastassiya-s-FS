@@ -114,7 +114,7 @@ body {
   animation-duration: 1.5s;
 }
 
-.main__title 
+.main__title {
   margin: 0 0 36px 0;
   font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
 }
