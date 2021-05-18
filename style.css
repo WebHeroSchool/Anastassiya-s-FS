@@ -163,12 +163,12 @@ body {
   from {
     transform: translateY(300px);
     opacity: 0%;
-}
+  }
 
   100% {
     transform: translateY(0);
     opacity: 100%;
- }
+  }
 }
 
 @media (max-width: 1608px) {
