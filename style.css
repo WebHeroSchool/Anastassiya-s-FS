@@ -163,33 +163,33 @@ body {
   from {
     transform: translateY(300px);
     opacity: 0%;
- }
+  }
 
   100% {
     transform: translateY(0);
     opacity: 100%;
- }
+  }
 }
 
 @media (max-width: 1608px) {
   .wrapper {
     width: 67.89%;
- }
+  }
 
   .header {
     margin-bottom: 85px;
- }
+  }
 
   .menu__item {
     font: 500 14px/16px 'robotomedium', arial, helvetica, sans-serif;
     margin-top: 10px;
     margin-right: 26px;
- }
+  }
 
   .main {
     padding: 13px 53% 147px 0;
     background-size: 55.4%;
- }
+  }
 
   .main__title {
     margin-bottom: 40px;
@@ -314,7 +314,7 @@ body {
   }
 
   .hamburger-menu {
-   display: block;
+    display: block;
   }
 
   .menu__btn > span,
@@ -399,5 +399,4 @@ body {
     visibility: visible;
     left: 0;
   }
-
 }
